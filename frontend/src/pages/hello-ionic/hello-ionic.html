@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Quiz Portal</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="background">
+  <ion-grid>
+  <ion-row>
+        <ion-col col-3 *ngFor="let item of items1">
+            <br>     
+        <flash-card>          
+          <div class="flash-card-front">
+              <div class="container">
+              <img src = "{{ item.no }}" style="opacity: 0.4" height="220" width="280" >    
+              <div class="centered">{{item.name}}</div> 
+            </div>       
+          </div>
+          
+          <div class="flash-card-back">
+              <div *ngFor="let i of item.topics" style="font-family: cursive">{{i}}</div>
+              <button ion-button round outline (click)="checklogin(item)" class="quiz">Take Quiz</button>
+          </div>  
+
+      </flash-card>
+    <br>
+      </ion-col>
+      <br>
+      <br>
+</ion-row>
+</ion-grid>
+</ion-content>
