@@ -1,0 +1,10 @@
+db.topics.insert({'Chemistry':['Molecules','Hydrogen','Noble Gases','Chemical Reaction','Atoms','Distillation','Electrons','Liquid'],
+'Human Body':['Digestive System','Heart','Brain','Sense Organs','Bones','Lungs','Muscles','Ligament','Ear'],
+'Monuments':['Taj Mahal','Eiffel Tower','Colosseum','Qutb Minar','Sphinx','Louvre','Stonehenge','Big Ben','Red Fort'],
+'Cartoons':['Mickey Mouse','Spongebob Squarepants','Scooby Doo','Popeye','Powerpuff girls','Bugs Bunny','Doraemon','Shinchan'],'_id':1})
+
+db.topics.insert({'Chemistry':['Madison Beer','Ariana Grande','Taylor Swift','Selena Gomez','Zendaya','Demi Lovato','Miley Cyrus','Katy Perry'],'_id':1})
+
+db.topics.insert({'Chemistry':['Madison Beer','Ariana Grande','Taylor Swift','Selena Gomez','Justin Beiber','Demi Lovato','Miley Cyrus','Katy Perry'],'_id':1})
+
+db.topics.insert({'Chemistry':['Miley Cyrus','Miley Cyrus','Miley Cyrus','Miley Cyrus','Miley Cyrus','Miley Cyrus','Miley Cyrus','Miley Cyrus'],'_id':1})
